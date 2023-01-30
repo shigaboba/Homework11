@@ -8,7 +8,7 @@ public class Main {
     }
 
     public static String isYearLeap (int year) {
-        String result = " ";
+        String result;
         if ( year%4 == 0 && year%100 != 0) {
             result = " год — високосный год";
         }
